@@ -16,7 +16,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SaplingState = void 0;
 const errors_1 = require("../errors");
-const sapling_wasm_1 = require("@airgap/sapling-wasm");
+const sapling_wasm_1 = require("@tezos-x/sapling-wasm");
 const utils_1 = require("./utils");
 const utils_2 = require("@taquito/utils");
 const bignumber_js_1 = require("bignumber.js");

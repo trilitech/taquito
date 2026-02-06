@@ -33,7 +33,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 var _SaplingTransactionViewer_viewingKeyProvider, _SaplingTransactionViewer_readProvider, _SaplingTransactionViewer_saplingContractId;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SaplingTransactionViewer = void 0;
-const sapling = require("@airgap/sapling-wasm");
+const sapling = require("@tezos-x/sapling-wasm");
 const bignumber_js_1 = require("bignumber.js");
 const utils_1 = require("@taquito/utils");
 const blakejs_1 = require("blakejs");

@@ -1,4 +1,4 @@
-import * as sapling from '@airgap/sapling-wasm';
+import * as sapling from '@tezos-x/sapling-wasm';
 import BigNumber from 'bignumber.js';
 import { hex2buf, mergebuf } from '@taquito/utils';
 import { CommitmentsAndCiphertexts, SaplingDiffResponse } from '@taquito/rpc';

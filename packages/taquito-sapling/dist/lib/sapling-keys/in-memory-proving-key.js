@@ -22,7 +22,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 var _InMemoryProvingKey_provingKey;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InMemoryProvingKey = void 0;
-const sapling = require("@airgap/sapling-wasm");
+const sapling = require("@tezos-x/sapling-wasm");
 const helpers_1 = require("./helpers");
 /**
  * @description holds the proving key, create proof for spend descriptions

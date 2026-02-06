@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('bignumber.js'), require('@taquito/taquito'), require('@taquito/utils'), require('@taquito/core'), require('@airgap/sapling-wasm'), require('blakejs'), require('@stablelib/nacl'), require('@stablelib/random'), require('bip39'), require('typedarray-to-buffer'), require('pbkdf2')) :
-    typeof define === 'function' && define.amd ? define(['exports', 'bignumber.js', '@taquito/taquito', '@taquito/utils', '@taquito/core', '@airgap/sapling-wasm', 'blakejs', '@stablelib/nacl', '@stablelib/random', 'bip39', 'typedarray-to-buffer', 'pbkdf2'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('bignumber.js'), require('@taquito/taquito'), require('@taquito/utils'), require('@taquito/core'), require('@tezos-x/sapling-wasm'), require('blakejs'), require('@stablelib/nacl'), require('@stablelib/random'), require('bip39'), require('typedarray-to-buffer'), require('pbkdf2')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'bignumber.js', '@taquito/taquito', '@taquito/utils', '@taquito/core', '@tezos-x/sapling-wasm', 'blakejs', '@stablelib/nacl', '@stablelib/random', 'bip39', 'typedarray-to-buffer', 'pbkdf2'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.taquitoSapling = {}, global.BigNumber, global.taquito, global.utils, global.core, global.sapling, global.blake, global.nacl, global.random, global.bip39, global.toBuffer, global.pbkdf2));
 })(this, (function (exports, BigNumber, taquito, utils, core, sapling, blake, nacl, random, bip39, toBuffer, pbkdf2) { 'use strict';
 

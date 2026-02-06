@@ -23,7 +23,7 @@ var _InMemorySpendingKey_spendingKeyBuf, _InMemorySpendingKey_saplingViewingKey;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InMemorySpendingKey = void 0;
 const in_memory_viewing_key_1 = require("./in-memory-viewing-key");
-const sapling = require("@airgap/sapling-wasm");
+const sapling = require("@tezos-x/sapling-wasm");
 const utils_1 = require("@taquito/utils");
 const bip39 = require("bip39");
 const helpers_1 = require("./helpers");

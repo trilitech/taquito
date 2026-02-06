@@ -65,13 +65,13 @@
     ]
   },
   "dependencies": {
-    "@airgap/sapling-wasm": "0.0.9",
     "@stablelib/nacl": "^1.0.4",
     "@stablelib/random": "^1.0.2",
     "@taquito/core": "^23.0.3",
     "@taquito/rpc": "^23.0.3",
     "@taquito/taquito": "^23.0.3",
     "@taquito/utils": "^23.0.3",
+    "@tezos-x/sapling-wasm": "^0.9.0",
     "bignumber.js": "^9.1.2",
     "bip39": "3.1.0",
     "blakejs": "^1.2.1",

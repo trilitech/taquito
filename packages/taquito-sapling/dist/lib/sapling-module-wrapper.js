@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SaplingWrapper = void 0;
-const sapling = require("@airgap/sapling-wasm");
+const sapling = require("@tezos-x/sapling-wasm");
 const random_1 = require("@stablelib/random");
 const sapling_params_provider_1 = require("./sapling-params-provider");
 let saplingInitPromise;

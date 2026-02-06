@@ -1,4 +1,4 @@
-import * as sapling from '@airgap/sapling-wasm';
+import * as sapling from '@tezos-x/sapling-wasm';
 import { randomBytes } from '@stablelib/random';
 import { ParametersOutputProof } from './types';
 import { getSaplingParams } from './sapling-params-provider';
