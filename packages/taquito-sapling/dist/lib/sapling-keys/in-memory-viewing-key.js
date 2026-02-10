@@ -23,7 +23,7 @@ var _InMemoryViewingKey_fullViewingKey;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InMemoryViewingKey = void 0;
 const utils_1 = require("@taquito/utils");
-const sapling = require("@airgap/sapling-wasm");
+const sapling = require("@tezos-x/sapling-wasm");
 const in_memory_spending_key_1 = require("./in-memory-spending-key");
 /**
  * @description Holds the viewing key

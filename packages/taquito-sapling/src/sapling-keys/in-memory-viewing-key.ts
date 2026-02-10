@@ -1,5 +1,5 @@
 import { b58Encode, PrefixV2 } from '@taquito/utils';
-import * as sapling from '@airgap/sapling-wasm';
+import * as sapling from '@tezos-x/sapling-wasm';
 import { InMemorySpendingKey } from './in-memory-spending-key';
 
 /**
